@@ -30,8 +30,8 @@ jobs:
         push: true
         platforms: linux/amd64,linux/arm64
         tags: |
-          nanayah99/fosslight_scanner:latest
-          nanayah99/fosslight_scanner:${{ github.event.release.tag_name }}
+          persi0815/fosslight_scanner_docker_test:latest
+          persi0815/fosslight_scanner_docker_test:${{ github.event.release.tag_name }}
 
   create-windows-executable:
     runs-on: windows-latest
